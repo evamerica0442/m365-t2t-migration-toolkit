@@ -144,4 +144,4 @@ The script rewrites UPNs and primary SMTP addresses to the source `.onmicrosoft.
 
 ## Author
 
-**Elmar [Your Surname]** — Senior Microsoft Cloud Engineer
+**Elmar America** — Senior Microsoft Cloud Engineer
