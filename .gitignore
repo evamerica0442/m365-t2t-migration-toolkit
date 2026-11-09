@@ -1,0 +1,42 @@
+# ---------------------------------------------
+# PowerShell / editor artifacts
+# ---------------------------------------------
+*.psess
+*.suo
+*.user
+*.bak
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# ---------------------------------------------
+# Transcripts (Start-Transcript output)
+# ---------------------------------------------
+PowerShell_transcript*.txt
+
+# ---------------------------------------------
+# Migration runtime data - never commit tenant
+# exports, mapping files, or logs to source control
+# ---------------------------------------------
+*.csv
+logs/
+MigrationData/
+C:\MigrationData\Logs\
+
+# ---------------------------------------------
+# OS noise
+# ---------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------
+# Local environment / secrets
+# ---------------------------------------------
+.env
+.env.*
+*.local.json
+config.local.*
+secrets.json
+*.pfx
